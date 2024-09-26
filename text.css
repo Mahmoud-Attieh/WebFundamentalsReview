@@ -1,0 +1,28 @@
+.header {
+    background-color: black;
+    text-align: left;
+    text-decoration: solid;
+    font-family: Chalkboard;
+}
+.my{
+    color: aliceblue;
+}
+.cloud{
+    color: color(srgb 0.0057 1 1);
+}
+.sec{
+    background-color: color(srgb 0.3983 0.199 0.6009);
+    font-family: oblique;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+.thir{
+    background-color: color(srgb 0.6219 0.7729 0.9727);
+    text-align: right;
+}
+.con{
+    color: color(srgb 0.1318 0.1023 0.165 / 0.51);
+    text-decoration:underline;
+    font-family: Oriya Sangam MN;
+}

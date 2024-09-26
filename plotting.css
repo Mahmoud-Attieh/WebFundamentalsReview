@@ -1,0 +1,59 @@
+.container{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.two{
+    background-color: color(srgb 0.7529 0.7529 0.753);
+    width: 700px;
+    height: 440px;
+}
+.top{
+    background-color: color(srgb 0 0.5031 0.0001);
+    width: 670px;
+    height: 80px;
+}
+.to-top{
+    padding-top: 10px;
+    padding-left: 12px;
+}
+.under{
+    display:flex;
+}
+.left{
+    background-color: color(srgb 0.0001 0.0011 1);
+    width: 150px;
+    height: 240px;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+.right-top{
+    background-color: color(srgb 0.9996 0 0);
+    width: 510px;
+    height: 320px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.three{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-content: space-around;
+    margin-right: 25px;
+}
+.one-y, .two-y, .three-y {
+    width: 150px;
+    height: 120px;
+    background-color: yellow;
+}
+.right-under{
+    background-color:purple;
+    width: 475px;
+    height: 120px;
+    margin-bottom: 35px;
+    margin-left: 10px;
+   
+}

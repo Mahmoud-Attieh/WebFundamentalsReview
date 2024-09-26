@@ -1,0 +1,20 @@
+
+
+h1 {
+    color : rgb(63, 45, 45);
+    font-style: italic;
+}
+
+.pic {
+    font-style:oblique;
+}
+#img {
+    margin: 40px;
+    padding: 40px;
+}
+th {
+    padding: 30px;
+}
+td {
+    padding: 30px;
+}

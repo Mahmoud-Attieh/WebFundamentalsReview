@@ -1,0 +1,295 @@
+.container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.nav{
+    background: color(srgb 0.2 0.2 0.2);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 60px;
+    align-items: center;
+
+}
+.nav-title{
+    font-family: Chalkboard;
+    font-size: 24px;
+    margin-left: 10px;
+    color: color(srgb 0.7999 0.8 0.8001);
+}
+.nav-title:hover{
+    color: white;
+}
+.nav-links{
+    display: flex;
+    align-items: center; 
+    list-style: none;  
+}
+.nav-links li  {
+    margin-left: 40px; 
+    margin-right: 10px;
+    font-size: 16px;
+    
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    color: color(srgb 0.7999 0.8 0.8001);
+    font-family: Chalkboard;
+
+}
+.nav-links li :hover{
+    color: white;
+}
+.btn{
+    background-color: color(srgb 0.0874 0.6348 0.7236);
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    height: 35px;
+    width: 110px;
+    font-size: 16px;
+    font-family: Chalkboard;
+    font-size: 18px;
+}   
+.btn:hover{
+    border-color: white;
+    background-color: rgb(78, 150, 150);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.userp{
+    height: 330px;
+    width: 450px;
+    color:rgba(128, 128, 128, 0.74);
+    border: solid;
+    border-radius: 5px;
+}
+.top{
+    background-color:color(srgb 0.0874 0.6348 0.7236);
+    height: 110px;
+}
+.prof_img{
+    width: 110px;
+    height: 110px;
+    border: solid;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+.name{
+    position: relative;
+    top: 55px;
+    left: 40px;
+    color: black;
+    font-family: Chalkboard;
+    font-size: 20px;
+}
+.map_marker{
+    position: relative;
+    top: 60px;
+    left: 40px;
+    width: 10px;
+    height: 15px;
+}
+.loc{
+    position: relative;
+    top: 35px;
+    left: 65px;
+    font-size: 20px;
+    font-family: Chalkboard;
+    color: black;
+}
+.desc{
+    font-size: 14px;
+    font-family:Chalkboard;
+    color: black;
+    position: relative;
+    left: 40px;
+    top: 50px;
+}
+.gear{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 65px;
+    left: 40px;
+}
+.edit{
+    position: relative;
+    top: 60px;
+    left: 40px;
+    font-family: Chalkboard;
+    color: rgb(33, 85, 130);
+}
+.under{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.edu{
+    height: 150px;
+    color:rgba(128, 128, 128, 0.74);
+    border: solid;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+}
+.edu_nav{
+    background-color: color(srgb 0.2 0.2 0.2);
+    height: 50px;
+}
+.right_top{
+    height: 150px;
+    width: 220px;
+    color:rgba(128, 128, 128, 0.74);
+    border: solid;
+    border-radius: 5px;
+}
+.edu_name{
+    font-family:Chalkboard;
+    color: white;
+    padding-top: 13px;
+    padding-left: 20px;
+}
+.right_under{
+    height: 280px;
+    width: 220px;
+    color:rgba(128, 128, 128, 0.74);
+    border: solid;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.right{
+    margin-left: 15px;
+}
+.cod{
+    font-family: Chalkboard;
+    color: black;
+}
+.tr{
+    font-family: Chalkboard;
+    color: black;
+}
+.mid{
+    font-family: Chalkboard;
+}
+.edu-desc{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.con{
+    height: 35px;
+    width: 220px;
+    background-color:color(srgb 0.2 0.2 0.2);
+}
+.num{
+    background-color: rgb(196, 195, 195);
+    border-radius: 50px;
+    width: 20px;
+    color: black;
+    font-family: Chalkboard;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    font-size: 17px;
+}
+.sp{
+    margin-left: 4px;
+}
+.conc{
+    font-family: Chalkboard;
+    color: rgb(226, 226, 226);
+    font-size: 18px;
+    position: relative;
+    bottom: 15px;
+    left: 35px;
+}
+.tod{
+    font-family:Chalkboard ;
+    margin-top: 15px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.user_img{
+    width: 25px;
+    height: 25px;
+}
+.tod-name{
+    position: relative;
+    left: 35px;
+    bottom: 28px;
+
+}
+.fi{
+    margin-right: 5px;
+}
+.phil-name{
+    position: relative;
+    left: 35px;
+    bottom: 28px;
+}
+.phil{
+    font-family:Chalkboard ;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.re-conc{
+    height: 35px;
+    width: 220px;
+    background-color:color(srgb 0.2 0.2 0.2);
+}
+.you_conc{
+    font-family: Chalkboard;
+    color: rgb(226, 226, 226);
+    font-size: 18px;
+    position: relative;
+    bottom: 15px;
+    left: 60px;
+}
+.num5{
+    background-color: rgb(196, 195, 195);
+    border-radius: 50px;
+    width: 40px;
+    color: black;
+    font-family: Chalkboard;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    font-size: 15px;
+}
+.sp5{
+    margin-left: 5px;
+}
+.list{
+    margin-top: 2px;
+    margin-left: 10px;
+    font-family: Chalkboard;
+    color: black;
+}
+.lname{
+    position: relative;
+    left: 35px;
+    bottom: 28px;
+    margin: auto;
+}
+.lastnav{
+    background-color:rgba(128, 128, 128, 0.74);
+    height:3px;  
+}
+.view{
+    font-family: Chalkboard;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
